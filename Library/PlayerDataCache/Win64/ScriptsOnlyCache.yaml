@@ -16,9 +16,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PhotonRigidbodyViewEditor
-    - Photon.Pun.PhotonTransformViewEditor
-    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
@@ -33,10 +30,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -97,55 +92,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1456}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1712}
-    - Class: 114
-      Script: {instanceID: 1746}
+      Script: {instanceID: 1716}
     - Class: 114
       Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 2286}
+      Script: {instanceID: 1754}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2290}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2710}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2714}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 2920}
+      Script: {instanceID: 2906}
     - Class: 114
       Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3174}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3800}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 4146}
+      Script: {instanceID: 3804}
     - Class: 114
       Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 4336}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4392}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 4840}
+      Script: {instanceID: 4382}
     - Class: 114
-      Script: {instanceID: 5000}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 264344}
+      Script: {instanceID: 5006}
+    - Class: 114
+      Script: {instanceID: 5372}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -641,7 +636,7 @@ ScriptsOnlyBuild:
     className: OnEscapeQuit
   - hash:
       serializedVersion: 2
-      Hash: 9c4a9bd4a3d31f6392f2185959d9c43f
+      Hash: 9e17a007a2d25364ccd16436378f4a04
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterInsantiate
@@ -1223,6 +1218,12 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Movement
+  - hash:
+      serializedVersion: 2
       Hash: 908b3077da284d11de0450423ca1808e
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1545,19 +1546,7 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: fda7dabd61c4f98de5cf97e1f271c6cd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Click
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Movement
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/goktu/Desktop/New folder/Dim dim dim.exe
+  playerPath: C:/Users/goktu/Desktop/dekistop/Dim dim dim.exe
